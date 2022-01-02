@@ -1,0 +1,67 @@
+#avatar {
+    width: 7%;
+    display: inline;
+    border-radius: 50%;
+    text-align: center;
+    position: block;
+    top: 10px;
+    left: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+header nav {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    left: 4%;
+    bottom: auto;
+}
+
+header nav a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 1%;
+    padding: 2%;
+    padding-bottom: 0;
+    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro a:visited {
+    color: #9dabb0;
+}
+
+nav a:visited {
+    color: #000000;
+}
+
+.intro a:hover {
+    color: #808586;
+}
+
+.intro {
+    padding: 100px;
+    background-color: #e9f5f8;
+    font-family: merriweather, serif;
+}
+
+.intro h2 {
+    color: #9dabb0;
+}
