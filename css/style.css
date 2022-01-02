@@ -1,11 +1,9 @@
 #avatar {
-    width: 7%;
-    display: inline;
+    width: 200px;
+    display: inline-block;
     border-radius: 50%;
     text-align: center;
     position: block;
-    top: 10px;
-    left: 10%;
 }
 
 h1 {
@@ -25,7 +23,9 @@ header nav {
     display: inline-block;
     position: relative;
     width: 80%;
-    left: 4%;
+    left: 12%;
+    margin-top: 0px;
+    padding-top: 0px;
     bottom: auto;
 }
 
@@ -57,6 +57,7 @@ nav a:visited {
 }
 
 .intro {
+    display: inline-block;
     padding: 100px;
     background-color: #e9f5f8;
     font-family: merriweather, serif;
@@ -64,4 +65,11 @@ nav a:visited {
 
 .intro h2 {
     color: #9dabb0;
+}
+
+.summary {
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    bottom: 100px;
 }
