@@ -119,9 +119,6 @@ footer a:hover {
     color: #0074d9;
 }
 
-
-/*Education*/
-
 .education h2 {
     background-color: #5291c5;
     font-family: serif;
@@ -166,9 +163,9 @@ footer a:hover {
     display: block;
 }
 
-div.HTML5,
-div.CSS3,
-div.JavaScript,
+div .HTML5,
+div .CSS3,
+div .JavaScript,
 div.C,
 div.Cpp,
 div.Java,
