@@ -3,17 +3,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 30%;
 }
 
 hr {
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-}
-
+h1,
 h2 {
     text-align: center;
 }
@@ -36,7 +33,7 @@ header nav {
 header nav a {
     text-decoration: none;
     display: inline-block;
-    font-size: 100%;
+    font-size: 200%;
     margin: 1%;
     padding: 2%;
     padding-bottom: 0;
@@ -44,11 +41,22 @@ header nav a {
     font-weight: 700;
 }
 
+header nav a:hover {
+    color: #0074d9;
+}
+
 a {
     text-decoration: none;
 }
 
-.intro a:visited {
+.intro h1 {
+    font-size: 300%;
+}
+
+.intro a,
+.intro a:visited,
+.intro a:link,
+.intro a:active {
     color: #9dabb0;
 }
 
@@ -57,7 +65,7 @@ nav a:visited {
 }
 
 .intro a:hover {
-    color: #808586;
+    color: #0074d9;
 }
 
 .intro {
@@ -65,10 +73,166 @@ nav a:visited {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #e9f5f8;
-    font-family: merriweather, serif;
+    font-family: serif;
     width: 100%;
+    height: 100%;
 }
 
 .intro h2 {
     color: #9dabb0;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+footer h3 {
+    display: inline-block;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer section {
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    font-family: serif;
+    font-size: 120%;
+}
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:active {
+    text-decoration: none;
+    color: black;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+footer a:hover {
+    color: #0074d9;
+}
+
+
+/*Education*/
+
+.education h2 {
+    background-color: #5291c5;
+    font-family: serif;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 300%;
+}
+
+.education h3 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.education p {
+    text-align: center;
+    font-size: 150%;
+}
+
+
+/*Skills*/
+
+.skills h2 {
+    background-color: #336085;
+    font-family: serif;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 300%;
+}
+
+.skills h3 {
+    font-size: 150%;
+    font-family: serif;
+    display: inline-block;
+    margin: 2%;
+    padding: 0.5%;
+    color: #253359;
+}
+
+#front-end-skills,
+#back-end-skills,
+#tools-skills {
+    display: block;
+}
+
+div.HTML5,
+div.CSS3,
+div.JavaScript,
+div.C,
+div.Cpp,
+div.Java,
+div.Git,
+div.GitHub,
+div.Heroku,
+div.VScode,
+div.Terminal {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    padding: 0%;
+    margin: 1%;
+}
+
+div.HTML5 img,
+div.CSS3 img,
+div.JavaScript img,
+div.C img,
+div.Cpp img,
+div.Java img,
+div.Git img,
+div.GitHub img,
+div.Heroku img,
+div.VScode img,
+div.Terminal img {
+    width: 30%;
+}
+
+div.HTML5 span,
+div.CSS3 span,
+div.JavaScript span,
+div.C span,
+div.Cpp span,
+div.Java span,
+div.Git span,
+div.GitHub span,
+div.Heroku span,
+div.VScode span,
+div.Terminal span {
+    font-family: serif;
+    display: block;
+    size: 10%;
+    font-weight: bold;
+}
+
+
+/*Project*/
+
+.projects h2 {
+    background-color: #253359;
+    font-family: serif;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 300%;
+}
+
+.projects h3 {
+    text-align: left;
+    font-size: 200%;
+}
+
+.projects p {
+    text-align: center;
+    font-size: 150%;
 }
