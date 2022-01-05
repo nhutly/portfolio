@@ -59,7 +59,7 @@ function countLoves() {
         } else {
             localStorage.lovecount = 1;
         }
-        document.getElementById("love-caption").innerHTML = localStorage.lovecount + " Views";
+        document.getElementById("love-caption").innerHTML = localStorage.lovecount + " Loves";
     } else {
         document.getElementById("love-caption").innerHTML = "Sorry, your browser does not support web storage...";
     }
