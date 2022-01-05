@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Nhut Dev</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -27,17 +28,36 @@
 
         </section>
 
+        <section id="stats">
+            <h2>your interaction with my portfolio</h2>
+            <div class="dashboard">
+                <div class="view">
+                    <img src="images/virtual-reality-vr.svg" alt="View" onclick="countViews()" />
+                    <span id="view-caption">Views</span>
+                </div>
+
+                <div class="like">
+                    <img src="images/like.svg" alt="Like" onclick="countLikes()" />
+                    <span id="like-caption">Likes</span>
+                </div>
+
+                <div class="love">
+                    <img src="images/heart-black.svg" alt="Love" onclick="countLoves()" />
+                    <span id="love-caption">Loves</span>
+                </div>
+            </div>
+        </section>
         <section id="education">
-            <h2>Education</h2>
+            <h2>education</h2>
             <h3>University of Wisconsin - Madison</h3>
             <p>B.S. Computer Science</p>
             <p>expected May 2023</p>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
+            <h2>skills</h2>
             <div id="front-end">
-                <h3>Front End</h3>
+                <h3>front End</h3>
 
                 <div id="front-end-skills">
                     <div class="HTML5">
@@ -60,7 +80,7 @@
             </br>
 
             <div id="back-end">
-                <h3>Back End</h3>
+                <h3>back End</h3>
                 <div id="back-end-skills">
 
                     <div class="C">
@@ -82,7 +102,7 @@
             </div>
 
             <div id="tools">
-                <h3>Tools</h3>
+                <h3>tools</h3>
                 <div id="tools-skills">
 
                     <div class="Git">
@@ -118,7 +138,7 @@
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
+            <h2>projects</h2>
             <h3>Stock Screener</h3>
             <ul>
                 <li>Developed a stock screener to save time and increase productivity for users by creatively utilizing different data structures, artistically designing GUI.</li>
