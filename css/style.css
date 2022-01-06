@@ -1,8 +1,4 @@
 #avatar {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 30%;
 }
 
@@ -25,11 +21,8 @@ header nav {
     display: inline-block;
     position: fixed;
     width: 100%;
-    margin-top: -60px;
-    padding-top: 7px;
-    bottom: auto;
     background-color: #ffffff;
-    top: 0;
+    margin-top: -1%;
 }
 
 header nav a {
@@ -37,13 +30,17 @@ header nav a {
     display: inline-block;
     font-size: 200%;
     margin: 1%;
-    margin-top: 30px;
     padding: 2%;
     padding-bottom: 0;
     font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
     font-weight: 700;
-    padding-top: 40px;
     padding-bottom: 0px;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header nav a:hover {
