@@ -302,9 +302,14 @@ div.Terminal span {
 #projects h3 {
     text-align: left;
     font-size: 200%;
+    padding-left: 2%;
 }
 
 #projects p {
     text-align: center;
     font-size: 150%;
+}
+
+#projects a:hover {
+    color: #0074d9;
 }
